@@ -10,7 +10,7 @@
                 
                 WinMonLine = self.driver.find_elements_by_xpath(self.winner_name_money_line_xpath)[0].text
             except:
-                WinMonLine = None
+                WinMonLine = Noneeee
         return WinMonLine
     def func2(self):
         winner_name_money_line = self.__scrape_web()
