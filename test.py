@@ -15,7 +15,7 @@
     def func2(self):
         winner_name_money_line = self.__scrape_web()
 
-        if (self.__scrape_web()):
+        if (self.func1()):
             winner_name_money_line_list = winner_name_money_line.split(" ")
             winner_name_money_line_list_idx = len(winner_name_money_line_list) - 1
             try:
